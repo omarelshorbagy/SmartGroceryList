@@ -40,12 +40,12 @@ logical_units = {
 
 # Ingredient costs for cost estimation
 cost_database = {
-    "milk": 0.002,  # Cost per milliliter in USD
-    "sugar": 0.005,  # Cost per gram in USD
-    "eggs": 0.25,    # Cost per piece in USD
-    "flour": 0.002,  # Cost per gram in USD
-    "butter": 0.01,  # Cost per gram in USD
-    "water": 0.0001, # Cost per milliliter in USD
+    "milk": 0.002,  # Cost per milliliter in euro
+    "sugar": 0.005,  # Cost per gram in euro
+    "eggs": 0.25,    # Cost per piece in euro
+    "flour": 0.002,  # Cost per gram in euro
+    "butter": 0.01,  # Cost per gram in euro
+    "water": 0.0001, # Cost per milliliter in euro
 }
 
 # Dietary filters for ingredient exclusion
@@ -220,7 +220,7 @@ def format_output(dataframe):
     dataframe["Quantity"] = dataframe["Quantity"].apply(
         lambda x: f"{int(x)}" if x.is_integer() else f"{x:.2f}"
     )
-    dataframe["Cost"] = dataframe["Cost"].apply(lambda x: f"${x:.2f}")
+    dataframe["Cost"] = dataframe["Cost"].apply(lambda x: f"€{x:.2f}")
 
     print("\nConsolidated Grocery List with Costs:")
     print(dataframe.to_string(index=False))
