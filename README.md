@@ -24,7 +24,7 @@ A Python CLI tool that fetches recipes from **TheMealDB API** and generates a co
 5.View the final consolidated grocery list with normalized quantities and estimated costs.
 
 
-##Example
+## Example
 
 Welcome to the Smart Grocery List Generator!
 Enter a dish name: Chicken Curry
@@ -43,10 +43,10 @@ Consolidated Grocery List with Costs:
 
 ## Notes
   
-  Costs are rough estimates based on the cost_database dictionary.
+. Costs are rough estimates based on the cost_database dictionary.
   
-  Unit parsing is heuristic and may not handle all free-form measures.
+. Unit parsing is heuristic and may not handle all free-form measures.
   
-  Add or update costs and units in the script to adapt to local markets.
+. Add or update costs and units in the script to adapt to local markets.
 
  
