@@ -25,7 +25,7 @@ A Python CLI tool that fetches recipes from **TheMealDB API** and generates a co
 
 
 ## Example
-
+```text
 Welcome to the Smart Grocery List Generator!
 Enter a dish name: Chicken Curry
 'Chicken Curry' is valid and matches 'Chicken Curry'. Added to your list.
@@ -39,14 +39,13 @@ Consolidated Grocery List with Costs:
  Chicken      500           grams      €4.50
  Onions       2             pieces     €0.40
  ...
- 
-
+```
 ## Notes
   
-. Costs are rough estimates based on the cost_database dictionary.
+- Costs are rough estimates based on the cost_database dictionary.
   
-. Unit parsing is heuristic and may not handle all free-form measures.
+- Unit parsing is heuristic and may not handle all free-form measures.
   
-. Add or update costs and units in the script to adapt to local markets.
+- Add or update costs and units in the script to adapt to local markets.
 
  
