@@ -27,18 +27,26 @@ A Python CLI tool that fetches recipes from **TheMealDB API** and generates a co
 ## Example
 ```text
 Welcome to the Smart Grocery List Generator!
-Enter a dish name: Chicken Curry
-'Chicken Curry' is valid and matches 'Chicken Curry'. Added to your list.
+Enter a dish name: pizza
+'pizza' is valid and matches 'Pizza Express Margherita'. Using 'Pizza Express Margherita'.
+Added 'Pizza Express Margherita' to your list.
 Have you finished? Type 'yes' to continue or 'no' to add more dishes: yes
+Do you have any dietary preferences? (e.g., vegan, gluten-free): no
 
 Fetching recipes...
-Consolidating ingredients...
+Formatting output...
 
 Consolidated Grocery List with Costs:
- Ingredient   Quantity      Unit       Cost
- Chicken      500           grams      €4.50
- Onions       2             pieces     €0.40
- ...
+ Ingredient Quantity        Unit   Cost
+ Mozzarella       70       grams  €7.00
+    Passata       80       grams  €8.00
+Plain Flour      225       grams €22.50
+       Salt        1       grams  €0.10
+      Sugar        5 milliliters  €0.03
+      Water      150 milliliters  €0.02
+      Yeast       15       grams  €1.50
+
+C:\Users\hp\OneDrive\Desktop\SmartGroceryList>
 ```
 ## Notes
   
