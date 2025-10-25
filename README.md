@@ -24,8 +24,7 @@ A Python CLI tool that fetches recipes from **TheMealDB API** and generates a co
 5.View the final consolidated grocery list with normalized quantities and estimated costs.
 
 
-Example
-----------------
+##Example
 
 Welcome to the Smart Grocery List Generator!
 Enter a dish name: Chicken Curry
@@ -40,9 +39,9 @@ Consolidated Grocery List with Costs:
  Chicken      500           grams      €4.50
  Onions       2             pieces     €0.40
  ...
- ----------------
+ 
 
-Notes
+## Notes
   
   Costs are rough estimates based on the cost_database dictionary.
   
